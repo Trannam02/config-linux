@@ -1,0 +1,17 @@
+- enable user
+    + run: su
+    + run: vi /etc/sudoers
+    + add <user_name> ALL = (ALL) ALL
+- update && upgrade
+    + sudo apt update && sudo apt upgrade
+- install theme
+    + install gtk dracular theme
+    open tweaks and set gtk-dracular as theme
+- install some soft
+    + snap: a package manager (use to install nvim, npm, node) new version
+    Ex: sudo apt install snap
+        sudo snap install nvim --classic
+    + htop: show inf mem, cpu ...
+    + tree: show file and folder as tree
+    + neofetch: show inf OS
+- swap caps and esc in tweaks
