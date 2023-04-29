@@ -15,3 +15,6 @@
     + tree: show file and folder as tree
     + neofetch: show inf OS
 - swap caps and esc in tweaks
+
+- sudo mount -o remount,uid=1000,gid=1000,rw /dev/sdc1 -> fix read-only in other volume
+    + uid && gid can find by command : id
